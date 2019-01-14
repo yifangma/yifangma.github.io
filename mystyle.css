@@ -1,0 +1,119 @@
+/*$mq-mobile-portrait   : 320px !default;*/
+/*$mq-mobile-landscape  : 480px !default;*/
+/*$mq-tablet-portrait   : 768px !default;*/
+/*$mq-tablet-landscape  : 1024px !default;*/
+/*$mq-desktop           : 1382px !default;*/
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent; }
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; }
+
+body {
+    width: 70%;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+    background-color: #f1f1f1;
+    padding: 10px 40px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.header {
+    padding: 1px 1px;
+    background: #bcbddc;
+    color: #f1f1f1;
+}
+.bottom_line {
+    background: #bcbddc;
+    color: #f1f1f1;
+    text-align: center;
+}
+.content {
+    padding: 20px 20px;
+    padding-top: 50px;
+}
+ul#horizontal-list {
+    min-width: 96px;
+    list-style: none;
+    background-color: #bcbddc;
+    padding-top: 1px;
+}
+ul#horizontal-list li {
+    padding-right: 50px;
+    display: inline;
+    font-size: 20px;
+}
+
+img.profilepic {
+    width: 190px; }
+@media only screen and (max-width: 40em) {
+    img.profilepic {
+        display: block;
+        margin: auto; } }
+@media only screen and (min-width: 30.001em) {
+    img.profilepic {
+        float: right;
+        margin-right: 2em;
+        margin-left: 2em; } }
+
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 70%;
+}
+
+.sticky + .content {
+/* some thing*/
+    /*padding: 20px 20px;*/
+}
+
+li {
+    margin-left: 1.5em;
+    margin-bottom: 0.3em; }
+li p {
+    display: inline; }
+
+
+p {
+    margin: 0 0 1.2em 0; }
+
+p.meta {
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: right; }
+
+
+img.profilepic {
+    width: 190px; }
+@media only screen and (max-width: 40em) {
+    img.profilepic {
+        display: block;
+        margin: auto; } }
+@media only screen and (min-width: 30.001em) {
+    img.profilepic {
+        float: right;
+        margin-right: 2em;
+        margin-left: 2em; } }
+
+img.feedicon {
+    width: 0.7em;
+    margin-left: 0.5em;
+    vertical-align: baseline; }
+
+
+
+/*# sourceMappingURL=main.css.map */
