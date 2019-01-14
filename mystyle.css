@@ -54,18 +54,6 @@ ul#horizontal-list li {
     font-size: 20px;
 }
 
-img.profilepic {
-    width: 190px; }
-@media only screen and (max-width: 40em) {
-    img.profilepic {
-        display: block;
-        margin: auto; } }
-@media only screen and (min-width: 30.001em) {
-    img.profilepic {
-        float: right;
-        margin-right: 2em;
-        margin-left: 2em; } }
-
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
@@ -83,7 +71,7 @@ img.profilepic {
 
 li {
     margin-left: 1.5em;
-    margin-bottom: 0.3em; }
+    margin-bottom: 0.8em; }
 li p {
     display: inline; }
 
